@@ -15,3 +15,12 @@ z = "I like turtles!"
 # Use the 'format' string method to print the same thing
 
 # Finally, print the same thing using an f-string
+
+# printf operator (%)
+print("x is %2d, y is %4.2f, z is \"%s\" " % (x, y, z))
+
+# format method ("".format())
+print("x is {0:2d}, y is {1:4.2f}, z is \"{2:s}\"".format(x, y, z))
+
+# f-string (f" ")
+print(f"x is {x}, y is {y:.2f}, z is \"{z}\"")
